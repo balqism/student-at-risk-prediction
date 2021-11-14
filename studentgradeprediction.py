@@ -183,7 +183,7 @@ elif(options =='Batch Prediction'):
     
     
     if(options1 =='Complete Attributes (Historic & Checkpoints)'):
-        link = '[Download .csv files](https://github.com/balqism/student-at-risk-prediction/blob/main/CombinedFeatures.csv)'
+        link = '[Download .csv files](https://raw.githubusercontent.com/balqism/student-at-risk-prediction/main/CombinedFeatures.csv)'
         st.markdown(link, unsafe_allow_html=True)
         key_features=['AgeCourseStart', 'Quiz1Norm', 'Quiz2Norm', 'HW1Norm', 'MTNorm',
            'AGE_ADMITTED', 'Reg_Hrs', 'HS_GPA', 'MATH', 'PHYS',
